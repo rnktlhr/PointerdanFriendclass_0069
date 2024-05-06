@@ -10,6 +10,13 @@ class mahasiswa{
 };
 
 int main(){
+
     mahasiswa mhs{1};
     mhs.shownim();
+
+    mahasiswa &refMhs = mhs;
+    refMhs.nim = 2;
+    mhs.shownim();
+
+    
 }
