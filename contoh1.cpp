@@ -6,10 +6,10 @@ class mahasiswa{
     int nim;
     void shownim(){
         cout << "No induk = " << nim << endl;
-    
     }
 };
 
 int main(){
-
+    mahasiswa mhs{1};
+    mhs.shownim();
 }
