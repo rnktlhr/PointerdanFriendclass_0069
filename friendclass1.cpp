@@ -24,6 +24,10 @@ void siswa ::displayAll(orang &a){
     << a.nama;
 }
 
+void orang :: setNama(string pNama){
+    nama = pNama;
+}
+
  int main(){
 
  }
